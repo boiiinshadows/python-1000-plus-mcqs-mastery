@@ -167,7 +167,10 @@ body{background:#fcf9f4;color:#1c1c19;cursor:crosshair;font-family:'Space Grotes
         <div id="navDisp" class="font-mono text-sm font-black">Q 001 / 500</div>
         <div class="text-xs font-mono mt-1" style="color:#9ca3af">1-4 answer • ←→ navigate</div>
       </div>
-      <button id="nextBtn" onclick="nextQ()" class="btn ns-sm px-4 md:px-6 py-2 text-sm text-white w-full sm:w-auto" style="background:#FF3E00">NEXT_Q →</button>
+      <div class="flex gap-2 w-full sm:w-auto">
+        <button id="skipBtn" onclick="nextQ()" class="btn ns-sm px-4 md:px-6 py-2 text-sm w-full sm:w-auto" style="background:#fde047;color:#1c1c19">SKIP ↷</button>
+        <button id="nextBtn" onclick="nextQ()" class="btn ns-sm px-4 md:px-6 py-2 text-sm text-white w-full sm:w-auto" style="background:#FF3E00">NEXT_Q →</button>
+      </div>
     </div>
   </div>
   <!-- Mini progress -->
